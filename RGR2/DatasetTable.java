@@ -25,7 +25,7 @@ public class DatasetTable extends JPanel implements Serializable {
         add(scrollPane, BorderLayout.CENTER);
     }
 
-    // --- API нашого JavaBean ---
+    //API JavaBean
 
     public void setDataset(List<BabyName> data) {
         tableModel.setData(data);
